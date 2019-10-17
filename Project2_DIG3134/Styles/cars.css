@@ -1,0 +1,137 @@
+@import "normalize.css";
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+p {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  display: block;
+  padding-bottom: 15px;
+}
+body {
+  background-color: #dcdcdc;
+}
+label {
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[placeholder]{
+  text-align: center;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #9c9c9c;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #6f6f6f;
+}
+@media screen and (max-width: 500px) {
+  .grid {
+    display: grid;
+    background-origin: auto;
+    backgorund-color: #dcdcdc;
+    grid-gap: 10px;
+  }
+  .
+}
+@media screen and (min-width: 500px) {
+  .grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: ;
+    grid-gap: 10px;
+  }
+  .home{
+    grid-column: 1/3;
+    text-align: center;
+    font-size: 38px;
+    text-decoration: underline;
+  }
+  .contact{
+    grid-column: 3/5;
+    text-align: center;
+    font-size: 38px;
+    text-decoration: underline;
+  }
+  .game{
+    grid-column: 5/7;
+    text-align: center;
+    font-size: 38px;
+    text-decoration: underline;
+  }
+  .grid-item {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+  }
+  .pichome{
+    grid-column: 2/6;
+  }
+  .premods{
+    grid-column: 1/2;
+    font-size: 18px;
+    text-align: justify;
+  }
+  .futmods{
+    grid-column: 6/7;
+    font-size: 18px;
+    text-align: justify;
+  }
+  .sellit{
+    grid-column: 2/6;
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 3px;
+  }
+  .hometitle{
+    grid-column: 2/6;
+    text-align: center;
+    font-size: 29px;
+  }
+  .emailforming{
+    grid-column: 3/5;
+    text-align: center;
+  }
+  /*.subbutt{
+    grid-column: 4/5;
+    text-align: center;
+  }
+  .inputs{
+    grid-column: 3/4;
+    text-align: center;
+  }*/
+  .homeopenner{
+    grid-column: 2/6;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+  }
+}
