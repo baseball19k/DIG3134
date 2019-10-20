@@ -1,4 +1,6 @@
 <?php
+//This page is no longer being used because I originally was planning on having the php run on a different page until I read the instructions closer
+//This page could possibly be used for something else later on in development
 $username = $email = $state = $zip = $city = $street = "";
   //for the state section
   $statewro ="State must be imputed as the two letter form";
@@ -15,22 +17,33 @@ $username = $email = $state = $zip = $city = $street = "";
   $emailwro ="This is not a valid email";
   $noemail ="You must input an email";
   //
-  if (empty($_POST["email"])) {
-     $dispemail = $noemail;
-  } else {
-    $email = test_input($_POST["email"]);
-    // check if e-mail address is well-formed
-    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-      $dispemail = $emailwro;
+  if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    if (empty($_POST["email"])) {
+       $dispemail = $noemail;
+    } else {
+      $email = test_input($_POST["email"]);
+      // check if e-mail address is well-formed
+      if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        $dispemail = $emailwro;
+      }
     }
-  }
-  if (empty($_POST["street"])) {
-     $dispstreet = $streetnone;
-  } else {
-    $street = test_input($_POST["street"]);
-    // check if e-mail address is well-formed
-    if (!preg_match(/^\d+\s[A-z]+\s[A-z]+/g,$street)) {
-      $dispstreet = $streetwro;
+    if (empty($_POST["street"])) {
+       $dispstreet = $streetnone;
+    } else {
+      $street = test_input($_POST["street"]);
+      // check if e-mail address is well-formed
+      if (!preg_match(/^\d+\s[A-z]+\s[A-z]+/g,$street)) {
+        $dispstreet = $streetwro;
+      }
+    }
+    if (empty($_POST["city"])) {
+       $dispstreet = $streetnone;
+    } else {
+      $street = test_input($_POST["city"]);
+      // check if e-mail address is well-formed
+      if (!preg_match(/^\d+\s[A-z]+\s[A-z]+/g,$city)) {
+        $dispcity = "Is that a city?";
+      }
     }
   }
 ?>

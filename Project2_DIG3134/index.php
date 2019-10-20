@@ -8,22 +8,23 @@
   <head>
     <meta charset="utf-8">
     <title>Car Home</title>
-    <link rel="stylesheet" href="Styles/cars.css"
+    <link rel="stylesheet" href="Styles/cars.css">
   </head>
   <body>
     <article class="grid">
+      <a href="logout.php">Logout</a>
       <div class = "home">
-        <a href = "index.html">
+        <a href = "index.php">
           <h1>Home</h1>
         </a>
       </div>
       <div class = "contact">
-        <a href = "carpagecontact.html">
+        <a href = "carpagecontact.php">
           <h1>Contact</h1>
         </a>
       </div>
       <div class = "game">
-        <a href = "carrace.html">
+        <a href = "carracegame.php">
           <h1>Game</h1>
         </a>
       </div>

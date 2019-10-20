@@ -4,7 +4,7 @@
 
     $username = "dig3134user";
     $password = "dig3134pass";
-if(isset($_POST["submit"])){
+
     if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true)
       {
         header("Location: index.php");
@@ -16,19 +16,45 @@ if(isset($_POST["submit"])){
         header("Location: index.php");
       }
     }
-  }
+
 ?>
 <html lang="en" dir="ltr">
   <head>
+    <link rel="stylesheet" href="Styles/cars.css">
     <meta charset="utf-8">
   </head>
   <body>
-    <form method="post" action="index.php">
-      Username:<br/>
-      <input type="text" name="username"><br/>
-      Password<br/>
-      <input type="password" name="password"><br/>
-      <input type="submit" name="submit" value="Login">
-    </form>
+    <article class="grid">
+    <div class="homelog">
+      <h1>Welcome to The site to follow your favorite Genesis Coupe in Central Florida! Login to get access and more details!</h1>
+    </div>
+      <div class= "emailforming">
+      <form method="post" action="login.php">
+        <div class="inputs">
+          <label for="userin">Username:</label><br>
+          <input type="text" id="userin" name="username"><br>
+          <label for="passin">Password:</label><br>
+          <input type="text" id="passin" name="password"><br>
+          <input type="checkbox" onclick="myFunction()">Make it private<br>
+        </div>
+        <div class="subbutt">
+          <input type="submit" name="submit" value="Login">
+        </div>
+        </form>
+        <script>
+        function myFunction() {
+          var x = document.getElementById("passin");
+          if (x.type === "text") {
+            x.type = "password";
+          } else {
+            x.type = "text";
+          }
+        }
+        </script>
+      </div>
+      <div class="emailforming">
+        <a href="makeacc.php">Make an Account</a>
+      </div>
+  </article>
   </body>
 </html>

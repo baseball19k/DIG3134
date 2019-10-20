@@ -76,6 +76,11 @@ input[type=submit]:hover {
     font-size: 38px;
     text-decoration: underline;
   }
+  .homelog{
+    grid-column: 2/6;
+    text-align: center;
+    font-size: 34px;
+  }
   .contact{
     grid-column: 3/5;
     text-align: center;
@@ -94,6 +99,11 @@ input[type=submit]:hover {
   }
   .pichome{
     grid-column: 2/6;
+    text-align: center;
+  }
+  .loginhead{
+    grid-column: 2/6;
+    text-align: center;
   }
   .premods{
     grid-column: 1/2;

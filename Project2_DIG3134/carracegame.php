@@ -11,14 +11,15 @@
   </head>
   <body>
     <article class="grid">
+    <a href="logout.php">Logout</a>
     <div class = home>
-      <a href = "index.html"><h1>Home</h1></a>
+      <a href = "index.php"><h1>Home</h1></a>
     </div>
     <div class = contact>
-      <a href = "carpagecontact.html"><h1>Contact</h1></a>
+      <a href = "carpagecontact.php"><h1>Contact</h1></a>
     </div>
     <div class = game>
-      <a href = "carrace.html"><h1>Game</h1></a>
+      <a href = "carracegame.php"><h1>Game</h1></a>
     </div>
     <div class="hometitle">
       <h1>Can you win?</h1>
