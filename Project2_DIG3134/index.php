@@ -12,7 +12,8 @@
   </head>
   <body>
     <article class="grid">
-      <a href="logout.php">Logout</a>
+
+      <nav class="grid nav">
       <div class = "home">
         <a href = "index.php">
           <h1>Home</h1>
@@ -28,11 +29,24 @@
           <h1>Game</h1>
         </a>
       </div>
+      <div class = "logoutbutton">
+        <a href="logout.php">
+          <h2>Logout</h2>
+        </a>
+      </div>
+      </nav>
       <div class = "hometitle">
         <h1>Follow the Florida Stormtrooper!</h1>
       </div>
       <div class = "homeopenner">
-        <h3>You love Genesis Coupes but you don't know where to follow a build of one in progress? Well look no further you have found the Florida Stromtrooper. A white 2011 2.0T RSPEC Genesis Coupe is the perfect car to watch come to life. Follow for future upgrades to the car!</h3>
+        <h3>You love Genesis Coupes, but you don't know where to follow a build of one in progress? Well look no further, <?php date_default_timezone_set("America/New_York"); echo "it's " . date("h:i:a");?> and you have found the Florida Stromtrooper. A white 2011 2.0T RSPEC Genesis Coupe is the perfect car to watch come to life. Follow for future upgrades to the car!</h3>
+      </div>
+
+      <div class="pichome">
+        <img src="Pictures/bannerfocusgene.jpg" alt="dope picture">
+      </div>
+      <div class = "sellit">
+        <p>The goal is to make it the nicest and fastest 2.0t Genesis in Central Florida and we will not stop till it has been complete. So stay tuned!</p>
       </div>
       <div class = "premods">
         <p>Previous Modifications
@@ -50,9 +64,6 @@
             <li>Bilstien Racing Suspension</li>
           </ul>
       </div>
-      <div class="pichome">
-        <img src="Pictures/bannerfocusgene.jpg" alt="dope picture">
-      </div>
       <div class = "futmods">
         <p>Future Modifications</p>
           <ul>
@@ -66,9 +77,7 @@
             <li>Underglow</li>
           </ul>
       </div>
-      <div class = "sellit">
-        <p>The goal is to make it the nicest and fastest 2.0t Genesis in Central Florida and we will not stop till it has been complete. So stay tuned!</p>
-      </div>
+
     </article>
   </body>
 </html>

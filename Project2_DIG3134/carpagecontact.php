@@ -12,7 +12,7 @@
   </head>
   <body>
     <article class="grid">
-      <a href="logout.php">Logout</a>
+      <nav class="grid nav">
       <div class = "home">
         <a href = "index.php">
           <h1>Home</h1>
@@ -28,6 +28,12 @@
           <h1>Game</h1>
         </a>
       </div>
+      <div class = "logoutbutton">
+        <a href="logout.php">
+          <h2>Logout</h2>
+        </a>
+      </div>
+      </nav>
       <div class ="sellit">
         <p>We want to send you a quick reminder of the car you hope to get in the near future. We feel that if you get a reminder of it you are more likely to work hard towards getting the vehicle and by us sending you the email reminder we feel that we are doing our part to help. If you don't want a car anytime soon that is understandable then just put down your dream car or one you will eventually try to work towards.</p>
       </div>

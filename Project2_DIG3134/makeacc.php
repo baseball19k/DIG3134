@@ -1,9 +1,11 @@
 <?php
   session_start();
-  $username = $password = "";
-
+  $alert = "";
   if(isset($_POST["submit"]))
     {
+      $username = print_r($_POST['username'], true);
+      $password = print_r($_POST['password'], true);
+
       if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true)
         {
           header("Location: index.php");
@@ -11,14 +13,21 @@
       if (isset($_POST['username']) && isset($_POST['password'])) {
         if ($_POST['username'] == $username && $_POST['password'] == $password)
         {
+
           $_SESSION['logged_in'] = true;
-          header("Refresh: 5; Location: index.php");
-          //echo "You have successfully created an account," .$_POST["username"]. "You will be redirected to the homepage in 5 seconds.";
+
+          header("Location: index.php");
+          sleep(5);
+          $alert = "You have successfully created an account, " .$username. "You will be redirected to the homepage in 5 seconds.";
+
+
+        }
+        else{
+          header("Location: makeacc.php");
         }
       }
-      //header("refresh:5; Location: ./index1.php");
-
     }
+
 ?>
 <html lang="en" dir="ltr">
   <head>
@@ -31,6 +40,7 @@
   </head>
   <body>
     <?php
+
     $dispusername = $dispemail = $dispphonenumber = $dispstreet = $dispcity = $dispzipcode = $dispstate = $disppassword = "";
     $phonenumber = $state = $zip = $city = $street = "";
 
@@ -87,13 +97,16 @@
          $data = htmlspecialchars($data);
          return $data;
       }
+
     ?>
     <article class="grid">
-    <div class="homelog">
+    <div class="emailforming">
       <h1>Create an Account!</h1>
     </div>
+    <?php if(isset($_POST['username']) && isset($_POST['password'])){ ?><div class="alert alert-success" role="alert"> <?php echo $alert; ?> </div><?php } ?>
     <div class= "emailforming">
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+      <span class="error"><?php echo $alert?></span><br>
       <label for "userin">Username:</label><br/>
       <input type="text" id="userin" name="username"><span class="error"><?php echo $dispusername?></span><br/>
       <label for "emailin">Email Address:<br/>
@@ -123,7 +136,7 @@
       }
       </script>
     </form>
-    <a href="login.php">You have an account?</a>
+    <a href="logout.php">You have an account?</a>
     <div class= "emailforming">
     </article>
   </body>

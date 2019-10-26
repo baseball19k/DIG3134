@@ -10,11 +10,14 @@ a:visited {
 }
 
 a:hover {
-  background-color: rgba(0, 0, 0, 0.5);
   color: white;
 }
+
 p {
   text-align: center;
+}
+ul {
+  list-style-type: none;
 }
 
 img {
@@ -23,7 +26,12 @@ img {
   padding-bottom: 15px;
 }
 body {
-  background-color: #dcdcdc;
+  background-color: #e0e0e0;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+}
+h1, h2, h3, h4, h5, h6 {
+ font-weight: 500;
 }
 label {
   font-size: 22px;
@@ -54,6 +62,7 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #6f6f6f;
 }
+
 @media screen and (max-width: 500px) {
   .grid {
     display: grid;
@@ -64,6 +73,12 @@ input[type=submit]:hover {
   .
 }
 @media screen and (min-width: 500px) {
+  nav {
+    grid-column: 1/7;
+    background-size: 100%;
+    background-origin: content;
+    background-repeat: no-repeat;
+  }
   .grid{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -71,27 +86,38 @@ input[type=submit]:hover {
     grid-gap: 10px;
   }
   .home{
-    grid-column: 1/3;
-    text-align: center;
-    font-size: 38px;
-    text-decoration: underline;
+    grid-column: 1/2;
+    text-align: left;
+    font-size: 25px;
+    color:white;
+    padding: 14px 20px;
+
   }
   .homelog{
-    grid-column: 2/6;
+    grid-column: 2/3;
     text-align: center;
     font-size: 34px;
   }
   .contact{
-    grid-column: 3/5;
-    text-align: center;
-    font-size: 38px;
-    text-decoration: underline;
+    grid-column: 2/3;
+    text-align: left;
+    font-size: 25px;
+    color:white;
+    padding: 14px 20px;
+  }
+  .logoutbutton{
+    grid-column: 6/7;
+    text-align: right;
+    color:white;
+    padding: 14px 20px;
   }
   .game{
-    grid-column: 5/7;
-    text-align: center;
-    font-size: 38px;
-    text-decoration: underline;
+    grid-column: 3/4;
+    text-align: left;
+    font-size: 25px;
+    color:white;
+    padding: 14px 20px;
+
   }
   .grid-item {
     background-color: rgba(0, 0, 0, 0.5);
@@ -106,14 +132,15 @@ input[type=submit]:hover {
     text-align: center;
   }
   .premods{
-    grid-column: 1/2;
+    grid-column: 2/4;
     font-size: 18px;
-    text-align: justify;
+    text-align: center;
   }
   .futmods{
-    grid-column: 6/7;
+    grid-column: 4/6;
     font-size: 18px;
-    text-align: justify;
+    text-align: center;
+
   }
   .sellit{
     grid-column: 2/6;
@@ -130,6 +157,11 @@ input[type=submit]:hover {
     grid-column: 3/5;
     text-align: center;
   }
+  .makeacclink{
+    grid-column: 3/5;
+    text-align: center;
+    font-size: 22px;
+  }
   /*.subbutt{
     grid-column: 4/5;
     text-align: center;
@@ -143,5 +175,9 @@ input[type=submit]:hover {
     text-align: center;
     font-size: 18px;
     letter-spacing: 1.5px;
+  }
+  .loginopenner{
+    grid-column: 2/6;
+    text-align: center;
   }
 }

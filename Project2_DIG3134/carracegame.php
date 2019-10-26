@@ -11,16 +11,28 @@
   </head>
   <body>
     <article class="grid">
-    <a href="logout.php">Logout</a>
-    <div class = home>
-      <a href = "index.php"><h1>Home</h1></a>
-    </div>
-    <div class = contact>
-      <a href = "carpagecontact.php"><h1>Contact</h1></a>
-    </div>
-    <div class = game>
-      <a href = "carracegame.php"><h1>Game</h1></a>
-    </div>
+      <nav class="grid nav">
+      <div class = "home">
+        <a href = "index.php">
+          <h1>Home</h1>
+        </a>
+      </div>
+      <div class = "contact">
+        <a href = "carpagecontact.php">
+          <h1>Contact</h1>
+        </a>
+      </div>
+      <div class = "game">
+        <a href = "carracegame.php">
+          <h1>Game</h1>
+        </a>
+      </div>
+      <div class = "logoutbutton">
+        <a href="logout.php">
+          <h2>Logout</h2>
+        </a>
+      </div>
+      </nav>
     <div class="hometitle">
       <h1>Can you win?</h1>
     </div>
