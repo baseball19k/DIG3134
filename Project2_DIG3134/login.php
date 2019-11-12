@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
   <?php
+    include("config.php");
     session_start();
     $wrongin = "";
     $username = "dig3134user";
