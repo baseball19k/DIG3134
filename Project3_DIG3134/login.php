@@ -2,26 +2,9 @@
   <?php
     include("config.php");
     session_start();
-    $wrongin = "";
-    $username = "dig3134user";
-    $password = "dig3134pass";
-
-    if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true)
-      {
-        header("Location: index.php");
-      }
-    if (isset($_POST['username']) && isset($_POST['password'])) {
-      if ($_POST['username'] == $username && $_POST['password'] == $password)
-      {
-        $_SESSION['logged_in'] = true;
-        header("Location: index.php");
-      }
-      else{
-        $wrongin = "That was incorrect";
-      }
+    if(isset($_SESSION['car_login'])){
+      header("location: index.php");
     }
-
-
 ?>
 <html lang="en" dir="ltr">
   <head>
