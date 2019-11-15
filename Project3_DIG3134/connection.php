@@ -20,7 +20,7 @@ $stmt->store_result();
 
 if($stmt->fetch())
   {
-    $_SESSION['car_login'] = $username;
+    $_SESSION['logged_in'] = $username;
     header("location: index.php");
   }
 else {

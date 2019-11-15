@@ -1,49 +1,91 @@
 <?php
-//This page is no longer being used because I originally was planning on having the php run on a different page until I read the instructions closer
-//This page could possibly be used for something else later on in development
-$username = $email = $state = $zip = $city = $street = "";
-  //for the state section
-  $statewro ="State must be imputed as the two letter form";
-  //for the zip code section
-  $zipwro ="Zip Code must be 5 numbers";
-  //for the street address
-  $streetnone ="A street address is needed";
-  $streetwro ="Input a valid address";
-  //for the City
-  $citywro ="Come on just put the city";
-  //for the username section
-  $usernamewro ="This Username is not valid, Must have letters and numbers with no special characters";
-  //for the email section
-  $emailwro ="This is not a valid email";
-  $noemail ="You must input an email";
-  //
-  if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    if (empty($_POST["email"])) {
-       $dispemail = $noemail;
-    } else {
-      $email = test_input($_POST["email"]);
-      // check if e-mail address is well-formed
-      if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        $dispemail = $emailwro;
+session_start();
+$username = $_POST['username'];
+$password = $_POST['password'];
+$email = $_POST['email'];
+$phonenumber = $_POST['phonenumber'];
+
+if(isset($_POST["submit"]))
+  {
+    $username = print_r($_POST['username'], true);
+    $password = print_r($_POST['password'], true);
+
+    if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true)
+      {
+        header("Location: index.php");
       }
-    }
-    if (empty($_POST["street"])) {
-       $dispstreet = $streetnone;
-    } else {
-      $street = test_input($_POST["street"]);
-      // check if e-mail address is well-formed
-      if (!preg_match(/^\d+\s[A-z]+\s[A-z]+/g,$street)) {
-        $dispstreet = $streetwro;
+    if (isset($_POST['username']) && isset($_POST['password'])) {
+      if ($_POST['username'] == $username && $_POST['password'] == $password)
+      {
+
+        $_SESSION['logged_in'] = true;
+
+        header("Location: index.php");
+        sleep(5);
+        $alert = "You have successfully created an account, " .$username. "You will be redirected to the homepage in 5 seconds.";
+
+
       }
-    }
-    if (empty($_POST["city"])) {
-       $dispstreet = $streetnone;
-    } else {
-      $street = test_input($_POST["city"]);
-      // check if e-mail address is well-formed
-      if (!preg_match(/^\d+\s[A-z]+\s[A-z]+/g,$city)) {
-        $dispcity = "Is that a city?";
+      else{
+        header("Location: makeacc.php");
       }
     }
   }
+  $dispusername = $dispemail = $dispphonenumber = $dispstreet = $dispcity = $dispzipcode = $dispstate = $disppassword = "";
+  $phonenumber = $state = $zip = $city = $street = "";
+
+
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    if (empty($_POST["street"])) {
+       $dispstreet = "A street address is needed";
+    } else {
+      $street = test_input($_POST["street"]);
+      if (!preg_match("/^\d+\s[A-z]+\s[A-z]+/",$street)) {
+        $dispstreet = "Input a valid address";
+      }
+    }
+    if (empty($_POST["city"])) {
+      $dispcity = "City is required";
+    } else {
+      $city = test_input($_POST["city"]);
+      if (!preg_match("/^[a-zA-Z ]*$/",$city)) {
+        $dispcity = "Is that a city?";
+      }
+    }
+    if (empty($_POST["state"])) {
+       $dispstate = "A state is needed";
+    } else {
+      $state = test_input($_POST["state"]);
+      if (!preg_match("/^[A-Z]{2}/",$state)) {
+        $dispstate = "State must be two capital letters";
+      }
+    }
+    if (empty($_POST["zip"])) {
+       $dispzipcode = "A zipcode is needed";
+    } else {
+      $zip = test_input($_POST["zip"]);
+      if (!preg_match("/^[0-9]{5}/",$zip)) {
+        $dispzipcode = "Enter a valid 5 digit zip code";
+      }
+    }
+    if (empty($_POST["phonenumber"])) {
+       $dispphonenumber = "A street address is needed";
+    } else {
+      $phonenumber = test_input($_POST["phonenumber"]);
+
+      if (!preg_match("/^[0-9]{10}/",$phonenumber)) {
+        $dispphonenumber = "Input a valid phone number";
+      }
+    }
+
+  }
+  $phonenumber = preg_replace('/(\d*)/', '', $phonenumber);
+  function test_input($data)
+    {
+       $data = trim($data);
+       $data = stripslashes($data);
+       $data = htmlspecialchars($data);
+       return $data;
+    }
+
 ?>
