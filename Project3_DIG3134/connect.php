@@ -1,5 +1,5 @@
 <?php
-$db = mysqli_connect(db_server, db_username, db_password, db_database);
+include("config.php");
 session_start();
 $check = $_SESSION['logged_in'];
 $query = "SELECT username from login where username = |'$check'";
