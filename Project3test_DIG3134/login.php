@@ -7,7 +7,7 @@
         $wrongin = "You must input a username and password";
       } else{
         $username = "ja213385";
-        $password = 'Ba$eball19k';
+        $password = 'Baseball19k!';
         $dbname = "ja213385";
         $user = $_POST['username'];
         $pass = $_POST['password'];
