@@ -33,23 +33,23 @@
             <h2>Who is this?</h2>
           </div>
             <div class="answerleft">
-              <input type="radio" name="mj" value="brady"><h4>Tom Brady</h4>
+              <input type="radio" name="messi" value="brady"><h4>Tom Brady</h4>
             </div>
             <div class="answerright">
-              <input type="radio" name="mj" value="james"><h4>Lebron James</h4>
+              <input type="radio" name="messi" value="lionel"><h4>Lionel Messi</h4>
             </div>
             <div class="answerleft">
-              <input type="radio" name="mj" value="jordan"><h4>Michael Jordan</h4>
+              <input type="radio" name="messi" value="jordan"><h4>Michael Jordan</h4>
             </div>
             <div class="answerright">
-              <input type="radio" name="mj" value="jeter"><h4>Derek Jeter</h4>
+              <input type="radio" name="messi" value="jeter"><h4>Derek Jeter</h4>
             </div>
 
             <!--question3-->
             <div class="quizImage">
             </div>
             <div class="question">
-              <p>If you make a shot from here how many points do you get?</p>
+              <p>If you make a shot how many points do you get?</p>
             </div>
               <div class="answerleft">
                 <input type="radio" name="points" value="3"><h4>3</h4>
@@ -71,16 +71,16 @@
               <p>What is the name of this team?</p>
             </div>
               <div class="answerleft">
-                <input type="radio" name="logo" value="miami"><h4>Miami Heat</h4>
+                <input type="radio" name="logo" value="barcelona"><h4>FC Barcelona</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="logo" value="boston"><h4>Boston Celtics</h4>
+                <input type="radio" name="logo" value="juventus"><h4>Juventus F.C.</h4>
               </div>
               <div class="answerleft">
-                <input type="radio" name="logo" value="la"><h4>LA Lakers</h4>
+                <input type="radio" name="logo" value="inter"><h4>Inter Milan</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="logo" value="dallas"><h4>Dallas Mavericks</h4>
+                <input type="radio" name="logo" value="manchester"><h4>Manchester United F.C.</h4>
               </div>
 
             <!--question5-->
@@ -90,54 +90,54 @@
               <p>What team does he play for?</p>
             </div>
               <div class="answerleft">
-                <input type="radio" name="pg" value="thunder"><h4>OKC Thunder</h4>
+                <input type="radio" name="ronaldo" value="jv"><h4>Juventus F.C</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="pg" value="pacers"><h4>Indiana Pacers</h4>
+                <input type="radio" name="ronaldo" value="bm"><h4>FC Bayern Munich</h4>
               </div>
               <div class="answerleft">
-                <input type="radio" name="pg" value="lakers"><h4>LA Lakers</h4>
+                <input type="radio" name="ronaldo" value="liverpool"><h4>Liverpool F.C.</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="pg" value="clippers"><h4>LA Clippers</h4>
+                <input type="radio" name="ronaldo" value="manchester"><h4>Manchester United F.C.</h4>
               </div>
 
             <!--question6-->
             <div class="quizImage">
             </div>
             <div class="question">
-              <p>How many championships has he won?</p>
+              <p>How many trophies has he won?</p>
             </div>
               <div class="answerleft">
-                <input type="radio" name="kobe" value="3"><h4>3</h4>
+                <input type="radio" name="trophies" value="35"><h4>35</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="kobe" value="2"><h4>2</h4>
+                <input type="radio" name="trophies" value="29"><h4>29</h4>
               </div>
               <div class="answerleft">
-                <input type="radio" name="kobe" value="5"><h4>5</h4>
+                <input type="radio" name="trophies" value="25"><h4>25</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="kobe" value="1"><h4>1</h4>
+                <input type="radio" name="trophies" value="20"><h4>20</h4>
               </div>
 
             <!--question7-->
             <div class="quizImage">
             </div>
             <div class="question">
-              <p>If you stop dribbling the ball and you start dribbling again what type of violation is this?</p>
+              <p>How do you dribble the ball?</p>
             </div>
               <div class="answerleft">
-                <input type="radio" name="penalties" value="traveling"><h4>Traveling</h4>
+                <input type="radio" name="dribble" value="nose"><h4>With your nose.</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="penalties" value="carrying"><h4>Carrying</h4>
+                <input type="radio" name="dribble" value="hands"><h4>With your hands.</h4>
               </div>
               <div class="answerleft">
-                <input type="radio" name="penalties" value="technical"><h4>Technical Foul</h4>
+                <input type="radio" name="dribble" value="feet"><h4>With your feet.</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="penalties" value="double"><h4>Double Dribble</h4>
+                <input type="radio" name="dribble" value="head"><h4>With your head.</h4>
               </div>
 
 
@@ -145,57 +145,57 @@
               <div class="quizImage">
               </div>
               <div class="question">
-                <p>What position is typically called the 4 spot?</p>
+                <p>What is this card called?</p>
               </div>
               <div class="answerleft">
-                <input type="radio" name="positions" value="smallForward"><h4>Small Forward</h4>
+                <input type="radio" name="card" value="red"><h4>Red Card</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="positions" value="powerForward"><h4>Power Forward</h4>
+                <input type="radio" name="card" value="blue"><h4>Blue Card</h4>
               </div>
               <div class="answerleft">
-                <input type="radio" name="positions" value="center"><h4>Center</h4>
+                <input type="radio" name="card" value="yellow"><h4>Yellow Card</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="positions" value="pointGuard"><h4>Point Guard</h4>
+                <input type="radio" name="card" value="green"><h4>Green Card</h4>
               </div>
 
             <!--question9-->
             <div class="quizImage">
             </div>
             <div class="question">
-              <p>What position is used for tip offs?</p>
+              <p>What position protects the goal?</p>
             </div>
               <div class="answerleft">
-                <input type="radio" name="tipoff" value="smallForward"><h4>Small Forward</h4>
+                <input type="radio" name="goal" value="defending"><h4>Defending Midfielder</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="tipoff" value="powerForward"><h4>Power Forward</h4>
+                <input type="radio" name="goal" value="center"><h4>Center Back</h4>
               </div>
               <div class="answerleft">
-                <input type="radio" name="tipoff" value="center"><h4>Center</h4>
+                <input type="radio" name="goal" value="left"><h4>Left Fullback</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="tipoff" value="pointGuard"><h4>Point Guard</h4>
+                <input type="radio" name="goal" value="goalie"><h4>Goalkeeper</h4>
               </div>
 
           <!--question10-->
           <div class="quizImage">
           </div>
           <div class="question">
-            <p>How many quarters are in a basketball game?</p>
+            <p>How long is a soccer game?</p>
           </div>
             <div class="answerleft">
-              <input type="radio" name="quarters" value="3"><h4>3</h4>
+              <input type="radio" name="minutes" value="85"><h4>85</h4>
             </div>
             <div class="answerright">
-              <input type="radio" name="quarters" value="4"><h4>4</h4>
+              <input type="radio" name="minutes" value="90"><h4>90</h4>
             </div>
             <div class="answerleft">
-              <input type="radio" name="quarters" value="5"><h4>5</h4>
+              <input type="radio" name="minutes" value="95"><h4>95</h4>
             </div>
             <div class="answerright">
-              <input type="radio" name="quarters" value="2"><h4>2</h4>
+              <input type="radio" name="minutes" value="100"><h4>100</h4>
             </div>
 
     </form>

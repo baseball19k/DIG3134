@@ -17,7 +17,7 @@
               <input type="radio" name="which_sport" value="football"><h4>Football</h4>
             </div>
             <div class="answerright">
-              <input type="radio" name="which_sport" value="cricket"><h4>Cricket</h4>
+              <input type="radio" name="which_sport" value="baseball"><h4>Baseball</h4>
             </div>
             <div class="answerleft">
               <input type="radio" name="which_sport" value="soccer"><h4>Soccer</h4>
@@ -33,23 +33,23 @@
             <h2>Who is this?</h2>
           </div>
             <div class="answerleft">
-              <input type="radio" name="mj" value="brady"><h4>Tom Brady</h4>
+              <input type="radio" name="jeter" value="brady"><h4>Tom Brady</h4>
             </div>
             <div class="answerright">
-              <input type="radio" name="mj" value="james"><h4>Lebron James</h4>
+              <input type="radio" name="jeter" value="james"><h4>Lebron James</h4>
             </div>
             <div class="answerleft">
-              <input type="radio" name="mj" value="jordan"><h4>Michael Jordan</h4>
+              <input type="radio" name="jeter" value="jordan"><h4>Michael Jordan</h4>
             </div>
             <div class="answerright">
-              <input type="radio" name="mj" value="jeter"><h4>Derek Jeter</h4>
+              <input type="radio" name="jeter" value="jeter"><h4>Derek Jeter</h4>
             </div>
 
             <!--question3-->
             <div class="quizImage">
             </div>
             <div class="question">
-              <p>If you make a shot from here how many points do you get?</p>
+              <p>If someone touches homeplate how many runs do you get?</p>
             </div>
               <div class="answerleft">
                 <input type="radio" name="points" value="3"><h4>3</h4>
@@ -71,16 +71,16 @@
               <p>What is the name of this team?</p>
             </div>
               <div class="answerleft">
-                <input type="radio" name="logo" value="miami"><h4>Miami Heat</h4>
+                <input type="radio" name="logo" value="miami"><h4>Miami Marlins</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="logo" value="boston"><h4>Boston Celtics</h4>
+                <input type="radio" name="logo" value="boston"><h4>Boston Red Sox</h4>
               </div>
               <div class="answerleft">
-                <input type="radio" name="logo" value="la"><h4>LA Lakers</h4>
+                <input type="radio" name="logo" value="la"><h4>LA Dodgers</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="logo" value="dallas"><h4>Dallas Mavericks</h4>
+                <input type="radio" name="logo" value="newYork"><h4>New York Yankees</h4>
               </div>
 
             <!--question5-->

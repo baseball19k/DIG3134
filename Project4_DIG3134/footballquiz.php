@@ -49,19 +49,19 @@
             <div class="quizImage">
             </div>
             <div class="question">
-              <p>If you make a shot from here how many points do you get?</p>
+              <p>If you get a touchdown how many points do you get?</p>
             </div>
               <div class="answerleft">
-                <input type="radio" name="points" value="3"><h4>3</h4>
+                <input type="radio" name="points" value="7"><h4>7</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="points" value="2"><h4>2</h4>
+                <input type="radio" name="points" value="6"><h4>6</h4>
               </div>
               <div class="answerleft">
                 <input type="radio" name="points" value="5"><h4>5</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="points" value="1"><h4>1</h4>
+                <input type="radio" name="points" value="8"><h4>8</h4>
               </div>
 
             <!--question4-->
@@ -71,16 +71,16 @@
               <p>What is the name of this team?</p>
             </div>
               <div class="answerleft">
-                <input type="radio" name="logo" value="miami"><h4>Miami Heat</h4>
+                <input type="radio" name="logo" value="miami"><h4>Miami Dolphins</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="logo" value="boston"><h4>Boston Celtics</h4>
+                <input type="radio" name="logo" value="boston"><h4>New England Patriots</h4>
               </div>
               <div class="answerleft">
-                <input type="radio" name="logo" value="la"><h4>LA Lakers</h4>
+                <input type="radio" name="logo" value="la"><h4>LA Rams</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="logo" value="dallas"><h4>Dallas Mavericks</h4>
+                <input type="radio" name="logo" value="dallas"><h4>Dallas Cowboys</h4>
               </div>
 
             <!--question5-->
@@ -90,16 +90,16 @@
               <p>What team does he play for?</p>
             </div>
               <div class="answerleft">
-                <input type="radio" name="pg" value="thunder"><h4>OKC Thunder</h4>
+                <input type="radio" name="ap" value="vikings"><h4>Minnesota Vikings</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="pg" value="pacers"><h4>Indiana Pacers</h4>
+                <input type="radio" name="ap" value="saints"><h4>New Orleans Saints</h4>
               </div>
               <div class="answerleft">
-                <input type="radio" name="pg" value="lakers"><h4>LA Lakers</h4>
+                <input type="radio" name="ap" value="cardinals"><h4>Arizona Cardinals</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="pg" value="clippers"><h4>LA Clippers</h4>
+                <input type="radio" name="ap" value="redskins"><h4>Washington Redskins</h4>
               </div>
 
             <!--question6-->
@@ -109,35 +109,35 @@
               <p>How many championships has he won?</p>
             </div>
               <div class="answerleft">
-                <input type="radio" name="kobe" value="3"><h4>3</h4>
+                <input type="radio" name="tom" value="3"><h4>3</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="kobe" value="2"><h4>2</h4>
+                <input type="radio" name="tom" value="2"><h4>2</h4>
               </div>
               <div class="answerleft">
-                <input type="radio" name="kobe" value="5"><h4>5</h4>
+                <input type="radio" name="tom" value="5"><h4>5</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="kobe" value="1"><h4>1</h4>
+                <input type="radio" name="tom" value="6"><h4>6</h4>
               </div>
 
             <!--question7-->
             <div class="quizImage">
             </div>
             <div class="question">
-              <p>If you stop dribbling the ball and you start dribbling again what type of violation is this?</p>
+              <p>If you interfere with someone trying to catch the ball and you weren't going for the ball what is this called?</p>
             </div>
               <div class="answerleft">
-                <input type="radio" name="penalties" value="traveling"><h4>Traveling</h4>
+                <input type="radio" name="penalties" value="helmet"><h4>Helmet-to-Helmet</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="penalties" value="carrying"><h4>Carrying</h4>
+                <input type="radio" name="penalties" value="pass"><h4>Pass Interference</h4>
               </div>
               <div class="answerleft">
-                <input type="radio" name="penalties" value="technical"><h4>Technical Foul</h4>
+                <input type="radio" name="penalties" value="targetting"><h4>Targetting</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="penalties" value="double"><h4>Double Dribble</h4>
+                <input type="radio" name="penalties" value="holding"><h4>Holding</h4>
               </div>
 
 
@@ -145,45 +145,45 @@
               <div class="quizImage">
               </div>
               <div class="question">
-                <p>What position is typically called the 4 spot?</p>
+                <p>What position typically throws the ball?</p>
               </div>
               <div class="answerleft">
-                <input type="radio" name="positions" value="smallForward"><h4>Small Forward</h4>
+                <input type="radio" name="positions" value="qb"><h4>Quarterback</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="positions" value="powerForward"><h4>Power Forward</h4>
+                <input type="radio" name="positions" value="rb"><h4>Running back</h4>
               </div>
               <div class="answerleft">
-                <input type="radio" name="positions" value="center"><h4>Center</h4>
+                <input type="radio" name="positions" value="wr"><h4>Wide Receiver</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="positions" value="pointGuard"><h4>Point Guard</h4>
+                <input type="radio" name="positions" value="cb"><h4>Cornerback</h4>
               </div>
 
             <!--question9-->
             <div class="quizImage">
             </div>
             <div class="question">
-              <p>What position is used for tip offs?</p>
+              <p>How does the team receive the ball on a kickoff?</p>
             </div>
               <div class="answerleft">
-                <input type="radio" name="tipoff" value="smallForward"><h4>Small Forward</h4>
+                <input type="radio" name="kickoff" value="ask"><h4>The kicking team asks the ball to go to the other side of the field.</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="tipoff" value="powerForward"><h4>Power Forward</h4>
+                <input type="radio" name="kickoff" value="kick"><h4>The kicking team kicks the ball.</h4>
               </div>
               <div class="answerleft">
-                <input type="radio" name="tipoff" value="center"><h4>Center</h4>
+                <input type="radio" name="kickoff" value="roll"><h4>The kicking team rolls the ball to the other team.</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="tipoff" value="pointGuard"><h4>Point Guard</h4>
+                <input type="radio" name="kickoff" value="throw"><h4>The kicking team throws the ball.</h4>
               </div>
 
           <!--question10-->
           <div class="quizImage">
           </div>
           <div class="question">
-            <p>How many quarters are in a basketball game?</p>
+            <p>How many quarters are in a football game?</p>
           </div>
             <div class="answerleft">
               <input type="radio" name="quarters" value="3"><h4>3</h4>
