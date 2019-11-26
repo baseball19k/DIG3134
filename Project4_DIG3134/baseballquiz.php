@@ -5,7 +5,7 @@
     <title></title>
   </head>
   <body>
-    <form action="basketquiz_result.php" method="post" id="basketquiz">
+    <form action="baseballquiz_result.php" method="post" id="baseballquiz">
 
           <!--question1-->
           <div class="quizImage">

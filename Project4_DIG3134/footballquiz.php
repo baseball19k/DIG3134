@@ -5,7 +5,7 @@
     <title></title>
   </head>
   <body>
-    <form action="basketquiz_result.php" method="post" id="basketquiz">
+    <form action="footballquiz_result.php" method="post" id="footballquiz">
 
           <!--question1-->
           <div class="quizImage">
@@ -33,16 +33,16 @@
             <h2>Who is this?</h2>
           </div>
             <div class="answerleft">
-              <input type="radio" name="mj" value="brady"><h4>Tom Brady</h4>
+              <input type="radio" name="tb" value="brady"><h4>Tom Brady</h4>
             </div>
             <div class="answerright">
-              <input type="radio" name="mj" value="james"><h4>Lebron James</h4>
+              <input type="radio" name="tb" value="james"><h4>Lebron James</h4>
             </div>
             <div class="answerleft">
-              <input type="radio" name="mj" value="jordan"><h4>Michael Jordan</h4>
+              <input type="radio" name="tb" value="jordan"><h4>Michael Jordan</h4>
             </div>
             <div class="answerright">
-              <input type="radio" name="mj" value="jeter"><h4>Derek Jeter</h4>
+              <input type="radio" name="tb" value="jeter"><h4>Derek Jeter</h4>
             </div>
 
             <!--question3-->
