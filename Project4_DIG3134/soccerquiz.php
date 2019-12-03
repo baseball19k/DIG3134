@@ -9,6 +9,7 @@
 
           <!--question1-->
           <div class="quizImage">
+            <img src="Pictures/soccer.jfif" alt="Soccer">
           </div>
           <div class="question">
             <h2>What sport is this for?</h2>
@@ -28,6 +29,7 @@
 
             <!--question2-->
           <div class="quizImage">
+            <img src="Pictures/messi.jfif" alt="Messi">
           </div>
           <div class="question">
             <h2>Who is this?</h2>
@@ -46,10 +48,8 @@
             </div>
 
             <!--question3-->
-            <div class="quizImage">
-            </div>
             <div class="question">
-              <p>If you make a shot how many points do you get?</p>
+              <p>If you make a goal how many points do you get?</p>
             </div>
               <div class="answerleft">
                 <input type="radio" name="points" value="3"><h4>3</h4>
@@ -66,6 +66,7 @@
 
             <!--question4-->
             <div class="quizImage">
+              <img src="Pictures/juventus.jfif" alt="Juventus">
             </div>
             <div class="question">
               <p>What is the name of this team?</p>
@@ -85,6 +86,7 @@
 
             <!--question5-->
             <div class="quizImage">
+              <img src="Pictures/ronaldo.jfif" alt="Ronaldo">
             </div>
             <div class="question">
               <p>What team does he play for?</p>
@@ -104,12 +106,13 @@
 
             <!--question6-->
             <div class="quizImage">
+              <img src="Pictures/trophies.jfif" alt="trophies">
             </div>
             <div class="question">
               <p>How many trophies has he won?</p>
             </div>
               <div class="answerleft">
-                <input type="radio" name="trophies" value="35"><h4>35</h4>
+                <input type="radio" name="trophies" value="34"><h4>34</h4>
               </div>
               <div class="answerright">
                 <input type="radio" name="trophies" value="29"><h4>29</h4>
@@ -122,8 +125,6 @@
               </div>
 
             <!--question7-->
-            <div class="quizImage">
-            </div>
             <div class="question">
               <p>How do you dribble the ball?</p>
             </div>
@@ -143,6 +144,7 @@
 
               <!--question8-->
               <div class="quizImage">
+                <img src="Pictures/red.jfif" alt="red card">
               </div>
               <div class="question">
                 <p>What is this card called?</p>
@@ -161,8 +163,6 @@
               </div>
 
             <!--question9-->
-            <div class="quizImage">
-            </div>
             <div class="question">
               <p>What position protects the goal?</p>
             </div>
@@ -180,8 +180,6 @@
               </div>
 
           <!--question10-->
-          <div class="quizImage">
-          </div>
           <div class="question">
             <p>How long is a soccer game?</p>
           </div>

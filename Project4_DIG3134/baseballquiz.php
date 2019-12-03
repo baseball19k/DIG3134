@@ -9,6 +9,7 @@
 
           <!--question1-->
           <div class="quizImage">
+            <img src="Pictures/baseball.jfif" alt="baseball">
           </div>
           <div class="question">
             <h2>What sport is this for?</h2>
@@ -28,6 +29,7 @@
 
             <!--question2-->
           <div class="quizImage">
+            <img src="Pictures/jeter.jpg" alt="Jeter">
           </div>
           <div class="question">
             <h2>Who is this?</h2>
@@ -47,6 +49,7 @@
 
             <!--question3-->
             <div class="quizImage">
+              <img src="Pictures/safe.jfif" alt="sliding safe">
             </div>
             <div class="question">
               <p>If someone touches homeplate how many runs do you get?</p>
@@ -66,6 +69,7 @@
 
             <!--question4-->
             <div class="quizImage">
+              <img src="Pictures/yanks.jfif" alt="Yankees">
             </div>
             <div class="question">
               <p>What is the name of this team?</p>
@@ -85,118 +89,115 @@
 
             <!--question5-->
             <div class="quizImage">
+              <img src="Pictures/christian.jfif" alt="Christian Yelich">
             </div>
             <div class="question">
-              <p>What team does he play for?</p>
+              <p>What team does he currently play for?</p>
             </div>
               <div class="answerleft">
-                <input type="radio" name="pg" value="thunder"><h4>OKC Thunder</h4>
+                <input type="radio" name="chris" value="nationals"><h4>Washington Nationals</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="pg" value="pacers"><h4>Indiana Pacers</h4>
+                <input type="radio" name="chris" value="dodgers"><h4>LA Dodgers</h4>
               </div>
               <div class="answerleft">
-                <input type="radio" name="pg" value="lakers"><h4>LA Lakers</h4>
+                <input type="radio" name="chris" value="brewers"><h4>Milwaukee Brewers</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="pg" value="clippers"><h4>LA Clippers</h4>
+                <input type="radio" name="chris" value="marlins"><h4>Miami Marlins</h4>
               </div>
 
             <!--question6-->
             <div class="quizImage">
+              <img src="Pictures/world.jfif" alt="Yankees winning">
             </div>
             <div class="question">
-              <p>How many championships has he won?</p>
+              <p>How many World Series have they won?</p>
             </div>
               <div class="answerleft">
-                <input type="radio" name="kobe" value="3"><h4>3</h4>
+                <input type="radio" name="yanks" value="10"><h4>10</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="kobe" value="2"><h4>2</h4>
+                <input type="radio" name="yanks" value="12"><h4>12</h4>
               </div>
               <div class="answerleft">
-                <input type="radio" name="kobe" value="5"><h4>5</h4>
+                <input type="radio" name="yanks" value="25"><h4>25</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="kobe" value="1"><h4>1</h4>
+                <input type="radio" name="yanks" value="27"><h4>27</h4>
               </div>
 
             <!--question7-->
-            <div class="quizImage">
-            </div>
             <div class="question">
-              <p>If you stop dribbling the ball and you start dribbling again what type of violation is this?</p>
+              <p>If you hit a grand slam how many runs are scored?</p>
             </div>
               <div class="answerleft">
-                <input type="radio" name="penalties" value="traveling"><h4>Traveling</h4>
+                <input type="radio" name="slam" value="1"><h4>1</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="penalties" value="carrying"><h4>Carrying</h4>
+                <input type="radio" name="slam" value="2"><h4>2</h4>
               </div>
               <div class="answerleft">
-                <input type="radio" name="penalties" value="technical"><h4>Technical Foul</h4>
+                <input type="radio" name="slam" value="3"><h4>3</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="penalties" value="double"><h4>Double Dribble</h4>
+                <input type="radio" name="slam" value="4"><h4>4</h4>
               </div>
 
 
               <!--question8-->
-              <div class="quizImage">
-              </div>
               <div class="question">
-                <p>What position is typically called the 4 spot?</p>
+                <p>What position is typically 2 on the lineup card?</p>
               </div>
               <div class="answerleft">
-                <input type="radio" name="positions" value="smallForward"><h4>Small Forward</h4>
+                <input type="radio" name="position" value="left"><h4>Left Field</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="positions" value="powerForward"><h4>Power Forward</h4>
+                <input type="radio" name="position" value="second"><h4>Second Base</h4>
               </div>
               <div class="answerleft">
-                <input type="radio" name="positions" value="center"><h4>Center</h4>
+                <input type="radio" name="position" value="catcher"><h4>Catcher</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="positions" value="pointGuard"><h4>Point Guard</h4>
+                <input type="radio" name="position" value="pitcher"><h4>Pitcher</h4>
               </div>
 
             <!--question9-->
-            <div class="quizImage">
-            </div>
             <div class="question">
-              <p>What position is used for tip offs?</p>
+              <p>What is the first batter in the lineup called?</p>
             </div>
               <div class="answerleft">
-                <input type="radio" name="tipoff" value="smallForward"><h4>Small Forward</h4>
+                <input type="radio" name="leadoff" value="clean"><h4>Cleanup</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="tipoff" value="powerForward"><h4>Power Forward</h4>
+                <input type="radio" name="leadoff" value="deck"><h4>On deck</h4>
               </div>
               <div class="answerleft">
-                <input type="radio" name="tipoff" value="center"><h4>Center</h4>
+                <input type="radio" name="leadoff" value="lead"><h4>Leadoff</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="tipoff" value="pointGuard"><h4>Point Guard</h4>
+                <input type="radio" name="leadoff" value="hole"><h4>In the hole</h4>
               </div>
 
-          <!--question10-->
-          <div class="quizImage">
-          </div>
-          <div class="question">
-            <p>How many quarters are in a basketball game?</p>
-          </div>
-            <div class="answerleft">
-              <input type="radio" name="quarters" value="3"><h4>3</h4>
+            <!--question10-->
+            <div class="quizImage">
+              <img src="Pictures/scores.jpg" alt="score board">
             </div>
-            <div class="answerright">
-              <input type="radio" name="quarters" value="4"><h4>4</h4>
+            <div class="question">
+              <p>How many innings are in a baseball game?</p>
             </div>
-            <div class="answerleft">
-              <input type="radio" name="quarters" value="5"><h4>5</h4>
-            </div>
-            <div class="answerright">
-              <input type="radio" name="quarters" value="2"><h4>2</h4>
-            </div>
+              <div class="answerleft">
+                <input type="radio" name="innings" value="7"><h4>7</h4>
+              </div>
+              <div class="answerright">
+                <input type="radio" name="innings" value="8"><h4>8</h4>
+              </div>
+              <div class="answerleft">
+                <input type="radio" name="innings" value="5"><h4>5</h4>
+              </div>
+              <div class="answerright">
+                <input type="radio" name="innings" value="9"><h4>9</h4>
+              </div>
 
     </form>
   </body>

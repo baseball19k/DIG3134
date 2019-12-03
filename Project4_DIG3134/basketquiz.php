@@ -9,6 +9,7 @@
 
           <!--question1-->
           <div class="quizImage">
+            <img src="Pictures/basketballexam.jfif" alt="basketball">
           </div>
           <div class="question">
             <h2>What sport is this for?</h2>
@@ -28,6 +29,7 @@
 
             <!--question2-->
           <div class="quizImage">
+            <img src="Pictures/mj.jfif" alt="Michael Jordan">
           </div>
           <div class="question">
             <h2>Who is this?</h2>
@@ -47,6 +49,7 @@
 
             <!--question3-->
             <div class="quizImage">
+              <img src="Pictures/3point.jpg" alt="three pointer">
             </div>
             <div class="question">
               <p>If you make a shot from here how many points do you get?</p>
@@ -66,6 +69,7 @@
 
             <!--question4-->
             <div class="quizImage">
+              <img src="Pictures/celticslogo.png" alt="Celtics">
             </div>
             <div class="question">
               <p>What is the name of this team?</p>
@@ -85,6 +89,7 @@
 
             <!--question5-->
             <div class="quizImage">
+              <img src="Pictures/pgpic.jfif" alt="PG">
             </div>
             <div class="question">
               <p>What team does he play for?</p>
@@ -104,6 +109,7 @@
 
             <!--question6-->
             <div class="quizImage">
+              <img src="Pictures/kobe.jfif" alt="Kobe">
             </div>
             <div class="question">
               <p>How many championships has he won?</p>
@@ -122,8 +128,6 @@
               </div>
 
             <!--question7-->
-            <div class="quizImage">
-            </div>
             <div class="question">
               <p>If you stop dribbling the ball and you start dribbling again what type of violation is this?</p>
             </div>
@@ -142,8 +146,6 @@
 
 
               <!--question8-->
-              <div class="quizImage">
-              </div>
               <div class="question">
                 <p>What position is typically called the 4 spot?</p>
               </div>
@@ -161,8 +163,6 @@
               </div>
 
             <!--question9-->
-            <div class="quizImage">
-            </div>
             <div class="question">
               <p>What position is used for tip offs?</p>
             </div>
@@ -180,8 +180,6 @@
               </div>
 
           <!--question10-->
-          <div class="quizImage">
-          </div>
           <div class="question">
             <p>How many quarters are in a basketball game?</p>
           </div>

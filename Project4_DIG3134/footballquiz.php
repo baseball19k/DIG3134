@@ -9,6 +9,7 @@
 
           <!--question1-->
           <div class="quizImage">
+            <img src="Pictures/football.jpg" alt="Football">
           </div>
           <div class="question">
             <h2>What sport is this for?</h2>
@@ -28,6 +29,7 @@
 
             <!--question2-->
           <div class="quizImage">
+            <img src="Pictures/tom.jfif" alt="Tom Brady">
           </div>
           <div class="question">
             <h2>Who is this?</h2>
@@ -46,8 +48,6 @@
             </div>
 
             <!--question3-->
-            <div class="quizImage">
-            </div>
             <div class="question">
               <p>If you get a touchdown how many points do you get?</p>
             </div>
@@ -66,6 +66,7 @@
 
             <!--question4-->
             <div class="quizImage">
+              <img src="Pictures/patriots.jfif" alt="patriots">
             </div>
             <div class="question">
               <p>What is the name of this team?</p>
@@ -85,6 +86,7 @@
 
             <!--question5-->
             <div class="quizImage">
+              <img src="Pictures/ap.jfif" alt="Adrian Peterson">
             </div>
             <div class="question">
               <p>What team does he play for?</p>
@@ -103,10 +105,8 @@
               </div>
 
             <!--question6-->
-            <div class="quizImage">
-            </div>
             <div class="question">
-              <p>How many championships has he won?</p>
+              <p>How many championships has Tom Brady won?</p>
             </div>
               <div class="answerleft">
                 <input type="radio" name="tom" value="3"><h4>3</h4>
@@ -122,8 +122,6 @@
               </div>
 
             <!--question7-->
-            <div class="quizImage">
-            </div>
             <div class="question">
               <p>If you interfere with someone trying to catch the ball and you weren't going for the ball what is this called?</p>
             </div>
@@ -142,8 +140,6 @@
 
 
               <!--question8-->
-              <div class="quizImage">
-              </div>
               <div class="question">
                 <p>What position typically throws the ball?</p>
               </div>
@@ -161,8 +157,6 @@
               </div>
 
             <!--question9-->
-            <div class="quizImage">
-            </div>
             <div class="question">
               <p>How does the team receive the ball on a kickoff?</p>
             </div>
@@ -180,8 +174,6 @@
               </div>
 
           <!--question10-->
-          <div class="quizImage">
-          </div>
           <div class="question">
             <p>How many quarters are in a football game?</p>
           </div>
