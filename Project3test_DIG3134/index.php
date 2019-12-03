@@ -39,7 +39,8 @@
         <h1>Follow the Florida Stormtrooper!</h1>
       </div>
       <div class = "homeopenner">
-        <h3>You love Genesis Coupes, but you don't know where to follow a build of one in progress? Well look no further, <?php date_default_timezone_set("America/New_York"); echo "it's " . date("h:i:a");?> and you have found the Florida Stromtrooper. A white 2011 2.0T RSPEC Genesis Coupe is the perfect car to watch come to life. Follow for future upgrades to the car!</h3>
+        <h3>You love Genesis Coupes, but you don't know where to follow a build of one in progress? Well look no further, <?php date_default_timezone_set("America/New_York"); echo "it's " . date("h:i:a");?> and you have found the Florida Stromtrooper.<?php $brag = 'love to show my progress.';if (strstr ( $brag, ' We appreciate the support from everyone and I' ) === false) {$brag = ' We appreciate the support from everyone and I ' . $brag;}echo $brag;
+        ?> A white 2011 2.0T RSPEC Genesis Coupe is the perfect car to watch come to life. Follow for future upgrades to the car!</h3>
       </div>
 
       <div class="pichome">

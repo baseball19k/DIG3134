@@ -2,12 +2,12 @@
   <?php
     session_start();
     $wrongin = "";
-    if (isset($_POST['submit'])){
+    if (isset($_POST['Submit'])){
       if (empty($_POST['username']) && empty($_POST['password'])){
         $wrongin = "You must input a username and password";
       } else{
         $username = "ja213385";
-        $password = 'Ba$eball19k';
+        $password = "Baseball19k!";
         $dbname = "ja213385";
         $user = $_POST['username'];
         $pass = $_POST['password'];
@@ -21,35 +21,16 @@
         $pass = strip_tags($pass);
         $pass = stripcslashes($pass);
         $pass = sha1($pass);
-        $db = mysql_select_db($connection);
-        $query = mysql_query("SELECT * from car_login where password='$pass' AND username='$user'", $connection);
-        $rows = mysql_num_rows($query);
+        $query = mysqli_query($connection, "SELECT * from car_login where password='$pass' AND username='$user'");
+        $rows = mysqli_num_rows($query);
         if ($rows == 1){
           $_SESSION['logged_in']=$user;
           header("location: index.php");
         }else{
           $wrongin ="Username and Password do not match an existing profile";
         }
-        mysql_close($connection);
       }
-
-    /*if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true)
-      {
-        header("Location: index.php");
-      }
-    if (isset($_POST['username']) && isset($_POST['password'])) {
-      if ($_POST['username'] == $username && $_POST['password'] == $password)
-      {
-        $_SESSION['logged_in'] = true;
-        header("Location: index.php");
-      }
-      else{
-        $wrongin = "That was incorrect";
-      }
-    }*/
   }
-
-
 ?>
 <html lang="en" dir="ltr">
   <head>
@@ -75,7 +56,7 @@
           <input type="checkbox" onclick="myFunction()">Make it private<br>
         </div>
         <div class="subbutt">
-          <input type="submit" name="submit" value="Login">
+          <input type="submit" name="Submit" value="Login">
         </div>
         </form>
         <script>
