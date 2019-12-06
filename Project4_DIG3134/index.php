@@ -22,6 +22,11 @@ if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] == false){
              <h1>Quiz</h1>
            </a>
          </div>
+         <div class = "profile">
+          <a href ="profile.php">
+            <h1>Profile</h1>
+          </a>
+        </div>
          <div class = "logoutbutton">
            <a href="logout.php">
              <h2>Logout</h2>
