@@ -6,7 +6,7 @@
   </head>
   <body>
     <form action="footballquiz_result.php" method="post" id="footballquiz">
-
+          <?php echo $missing ?>
           <!--question1-->
           <div class="quizImage">
             <img src="Pictures/football.jpg" alt="Football">
@@ -75,7 +75,7 @@
                 <input type="radio" name="logo" value="miami"><h4>Miami Dolphins</h4>
               </div>
               <div class="answerright">
-                <input type="radio" name="logo" value="boston"><h4>New England Patriots</h4>
+                <input type="radio" name="logo" value="ne"><h4>New England Patriots</h4>
               </div>
               <div class="answerleft">
                 <input type="radio" name="logo" value="la"><h4>LA Rams</h4>
@@ -189,7 +189,7 @@
             <div class="answerright">
               <input type="radio" name="quarters" value="2"><h4>2</h4>
             </div>
-
+            <input type="submit" name="submit" value="Next">
     </form>
   </body>
 </html>

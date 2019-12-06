@@ -1,0 +1,46 @@
+@import "normalize.css";
+img {
+  width: 100%;
+  display: block;
+  padding-bottom: 15px;
+}
+body {
+  background-color: #e0e0e0;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+}
+h1, h2, h3, h4, h5, h6 {
+ font-weight: 500;
+}
+label {
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 500px){
+  .grid {
+    display: grid;
+    background-origin: auto;
+    grid-gap: 10px;
+  }
+}
+@media screen and (min-width: 500px){
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+  }
+  .quizimage{
+    grid-column: 4/10;
+  }
+  .question{
+    grid-column: 4/10;
+
+  }
+  .left{
+    grid-column: 4/7;
+  }
+  .right{
+    grid-column: 7/10;
+  }
+}

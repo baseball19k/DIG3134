@@ -20,7 +20,7 @@
         $pass = stripslashes($pass);
         $pass = strip_tags($pass);
         $pass = stripcslashes($pass);
-        $pass = sha1($pass);
+        #$pass = sha1($pass);
         $query = mysqli_query($connection, "SELECT * from car_login where password='$pass' AND username='$user'");
         $rows = mysqli_num_rows($query);
         if ($rows == 1){

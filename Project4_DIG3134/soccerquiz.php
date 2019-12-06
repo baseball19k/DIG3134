@@ -195,7 +195,7 @@
             <div class="answerright">
               <input type="radio" name="minutes" value="100"><h4>100</h4>
             </div>
-
+            <input type="submit" name="submit" value="Submit">
     </form>
   </body>
 </html>
