@@ -1,4 +1,5 @@
 <?php
+  include('insertdata.php');
  ?>
  <html lang="en" dir="ltr">
    <head>
@@ -11,7 +12,7 @@
          <h1>Sign Up Now!</h1>
        </div>
        <div class="signUpForm">
-         <form method="post" action="">
+         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
             <label for "userin">Username:</label><br/>
             <input type="text" id="userin" name="username"><span class="error"><?php echo $dispusername?></span><br/>
             <label for "emailin">Email Address:<br/>
