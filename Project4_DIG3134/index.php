@@ -35,7 +35,7 @@ if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] == false){
        </nav>
        <div class = "mainText">
        </div>
-       <div class = "Quiz">
+       <div class = "Quiztab">
          <a href ="quiz.php">
            <h1>Quiz</h1>
          </a>

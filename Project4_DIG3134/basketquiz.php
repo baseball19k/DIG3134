@@ -195,7 +195,7 @@
             <div class="answerright">
               <input type="radio" name="quarters" value="2"><h4>2</h4>
             </div>
-            <input type="submit" name="submit" value="next">
+            <input type="submit" name="submit" value="Next">
     </form>
   </body>
 </html>
