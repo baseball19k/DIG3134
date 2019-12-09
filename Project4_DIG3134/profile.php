@@ -31,9 +31,26 @@ include('totalscore.php')
           </a>
         </div>
       </nav>
-      <div class = ""
-      <h1>Your total score is:</h1>
-      <Football section
+      <div class = "totalresult">
+        <h1>Your total score is:</h1>
+        <?php echo $totalresult ?>
+      </div>
+      <div class = "footballresult">
+        <h1>Football section</h1>
+        <?php echo $footballresult ?>
+      </div>
+      <div class = "basketballresult">
+        <h1>Basketball section</h1>
+        <?php echo $basketballresult ?>
+      </div>
+      <div class = "baseballresult">
+        <h1>Baseball Results:</h1>
+        <?php echo $baseballresult ?>
+      </div>
+      <div class = "soccerresult">
+        <h1>Soccer Results:</h1>
+        <?php echo $soccerresult ?>
+      </div>
     </article>
   </body>
 </html>
