@@ -22,7 +22,7 @@
         $pass = stripcslashes($pass);
         $pass = sha1($pass);
         $db = mysql_select_db($connection);
-        $query = mysql_query("SELECT * from car_login where password='$pass' AND username='$user'", $connection);
+        $query = mysql_query("SELECT * from quiz where password='$pass' AND username='$user'", $connection);
         $rows = mysql_num_rows($query);
         if ($rows == 1){
           $_SESSION['logged_in']=$user;

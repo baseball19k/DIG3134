@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] == false){
-    header("Location: landing.php");
+    header("Location: login.php");
   }
  ?>
  <html lang="en" dir="ltr">
