@@ -1,7 +1,4 @@
-<?php session_start();
-  if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] == false){
-      header("Location: login.php");
-    }
+<?php include('server.php')
 ?>
 <html lang="en" dir="ltr">
   <head>
@@ -9,7 +6,7 @@
     <title></title>
   </head>
   <body>
-    <form action="soccerquiz_result.php" method="post" id="soccerquiz">
+    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post" id="soccerquiz">
 
           <!--question1-->
           <div class="quizImage">

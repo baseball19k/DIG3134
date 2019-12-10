@@ -7,8 +7,6 @@
     <link rel="stylesheet" href="style.css"/>
     <link rel="icon" href=""/>
   </head>
-<?php include('header.php'); ?>
-
 <body>
 	<div class="header">
 		<h2>Register</h2>

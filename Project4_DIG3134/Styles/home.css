@@ -108,10 +108,11 @@ input[type=submit]:hover {
     box-shadow: 0 4px 8px 0 rgba(100, 114, 221, 0.29);
   }
   .logoutbutton{
-    grid-column: 10/11;
-    text-align: right;
-    color:white;
-    padding: 14px 20px;
+    grid-column: 7/9;
+    text-align: center;
+    font-size: 24px;
+    background-color: rgba(253, 232, 232, .81);
+    box-shadow: 0 4px 8px 0 rgba(100, 114, 221, 0.29);
   }
   .mainTextHead{
     grid-column: 2/10;
