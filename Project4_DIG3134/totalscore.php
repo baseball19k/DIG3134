@@ -1,3 +1,34 @@
 <?php
-#I want it to pull from the database on how many points have been collected in total out of 40 and then depending on how many points they get is what title they get with their name like a badge for the profile. i want the scores from the other games to be sent to the database and stored there. 
- ?>
+$user = $_SESSION['username'];
+$query = "SELECT results FROM quiz WHERE username='$user'";
+$results = mysqli_query($db, $query);
+
+if (mysqli_num_rows($results) == 1) {
+    while ($row = $results->fetch_assoc()) {
+        if ($row !== null){
+            echo "Your score: " . $row['results']."<br>";   
+        } else {
+            echo "No score";
+        }
+    }
+}else {
+    echo "No score";
+}
+
+
+// $result == array_sum($total);
+
+// if (count($total) == 4) {
+//     echo $result;
+// } else if (count($total) < 4) {
+//     echo "You haven't completed all of the quizzes";
+// } else if (count($total) > 4) {
+//     echo "You submitted too many times";<br>
+    
+//     echo "Reset Quiz? <button class="yes">Yes</button>" 
+//         if
+//         unset($total);
+//         $total = array();
+// }
+
+?>

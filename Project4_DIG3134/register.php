@@ -2,38 +2,40 @@
 <html lang="en" dir="ltr">
   <head>
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
-    <title>Login</title>
+    <title>Register</title>
     <!-- external css -->
     <link rel="stylesheet" href="style.css"/>
     <link rel="icon" href=""/>
   </head>
+<?php include('header.php'); ?>
 
-	<body>
-
+<body>
 	<div class="header">
-		<h2>Login</h2>
+		<h2>Register</h2>
 	</div>
 
-	<form method="post" action="login.php">
+	<form method="post" action="register.php">
 
 		<?php include('errors.php'); ?>
 
 		<div class="input-group">
 			<label>Username</label>
-			<input type="text" name="username" >
+			<input type="text" name="username">
 		</div>
 		<div class="input-group">
 			<label>Password</label>
 			<input type="password" name="password">
 		</div>
 		<div class="input-group">
-			<button type="submit" class="btn" name="login_user">Login</button>
+			<label>Email</label>
+			<input type="text" name="email">
+		</div>
+		<div class="input-group">
+			<button type="submit" class="btn" name="reg_user">Register</button>
 		</div>
 		<p>
-			Not yet a member? <a href="register.php">Sign up</a>
+			Already a member? <a href="login.php">Sign in</a>
 		</p>
 	</form>
-
-
 </body>
 </html>

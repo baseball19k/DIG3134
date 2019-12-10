@@ -1,43 +1,38 @@
-<?php
-session_start();
-  if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] == false){
-      header("Location: login.php");
-    }
-include('totalscore.php')
-?>
+<?php include('server.php'); ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <title>Profile Page</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+    <title>Profile</title>
+    <!-- external css -->
+    <link rel="stylesheet" href=""/>
+    <link rel="stylesheet" href="Styles/home.css">
+    <link rel="icon" href=""/>
   </head>
+  <?php include('header.php');?>
+
+<?php if (!isset($_SESSION['username'])) {
+  echo "<div class='main'>You must log in to use this feature</div>";
+}
+?>
+
+<!-- logged in user information -->
+<?php  if (isset($_SESSION['username'])) : ?>
+
   <body>
     <article class="grid">
-      <nav class="grid nav">
-        <div class = "home">
-          <a href ="home.php">
-            <h1>Home</h1>
-          </a>
-        </div>
-        <div class = "Quiz">
-          <a href ="quiz.php">
-            <h1>Quiz</h1>
-          </a>
-        </div>
-        <div class = "profile">
-         <a href ="profile.php">
-           <h1>Profile</h1>
-         </a>
-       </div>
-        <div class = "logoutbutton">
-          <a href="logout.php">
-            <h2>Logout</h2>
-          </a>
-        </div>
-      </nav>
       <div class = "totalresult">
-        <h1>Your total score is:</h1><?php echo $totalresult ?>
+        <h1>Your total score is:</h1>
       </div>
+  <?php  if (isset($_SESSION['done'])) : ?>
+    <div class = "score">
+      <h1><?php include('totalscore.php'); ?></h1>
+      </div>
+  <?php endif ?>
+
+
     </article>
   </body>
 </html>
+
+<?php endif ?>
