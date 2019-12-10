@@ -5,6 +5,7 @@
     <title>Login</title>
     <!-- external css -->
     <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Arvo:700%7CKanit:300&display=swap" rel="stylesheet">
     <link rel="icon" href=""/>
   </head>
 

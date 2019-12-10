@@ -2,12 +2,14 @@
 ?>
 <html lang="en" dir="ltr">
   <head>
+    <link href="https://fonts.googleapis.com/css?family=Arvo:700%7CKanit:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Styles/quiz.css"/>
     <meta charset="utf-8">
     <title></title>
   </head>
   <body>
     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post" id="footballquiz">
-          
+
           <!--question1-->
           <div class="quizImage">
             <img src="Pictures/football.jpg" alt="Football">

@@ -16,14 +16,6 @@
 <?php
 if (isset($_SESSION['username'])) {
     echo "
-          <script>
-
-         var audio = new Audio('Fizzle-SoundBible.com-1439537520.mp3');
-         audio.play();
-         alert('You have logged out successfully and see you next time.');
-         window.location='login.php';
-
-        </script>
         <a href='index.php?logout='1''>
             <div class ='profile'>
                 <h3>Logout</h3>

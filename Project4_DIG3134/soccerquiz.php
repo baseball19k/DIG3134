@@ -2,6 +2,8 @@
 ?>
 <html lang="en" dir="ltr">
   <head>
+    <link rel="stylesheet" href="Styles/quiz.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Arvo:700%7CKanit:300&display=swap" rel="stylesheet">
     <meta charset="utf-8">
     <title></title>
   </head>

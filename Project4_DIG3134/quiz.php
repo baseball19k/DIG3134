@@ -7,6 +7,7 @@
     <!-- external css -->
     <link rel="stylesheet" href=""/>
     <link rel="icon" href=""/>
+    <link href="https://fonts.googleapis.com/css?family=Arvo:700%7CKanit:300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Styles/home.css">
   </head>
   <?php include('header.php');?>

@@ -4,6 +4,7 @@
   <head>
     <meta charset="utf-8">
     <title>Baseball Quiz</title>
+    <link href="https://fonts.googleapis.com/css?family=Arvo:700%7CKanit:300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Styles/quiz.css">
   </head>
   <body>
