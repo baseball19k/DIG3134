@@ -72,7 +72,7 @@
 				$_SESSION['username'] = $username;
 				$_SESSION['success'] = "You are now logged in";
 				header('location: index.php');
-				
+
 			}else {
 				array_push($errors, "Wrong username/password combination");
 			}
@@ -269,6 +269,7 @@
 			}else {
 				array_push($errors, "You have to answer them all");
 			}
+			header("location: profile.php");
 		}
 	}
 ?>
